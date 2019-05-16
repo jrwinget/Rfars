@@ -1,6 +1,4 @@
-# Rfars
-
-The `Rfars` Package
+# The `Rfars` Package
 ========
 Current status: [![Build Status](https://travis-ci.org/jrwinget/Rfars.svg?branch=master)](https://travis-ci.org/jrwinget/Rfars)
 
@@ -23,8 +21,8 @@ Load the package and read the sample dataset:
 ``` r
 library(Rfars)
 
-fars_2013 <- make_filename(2013)
-fars_2013 <- fars_read(fars_2013) 
+2013_file <- make_filename(2013)
+fars_2013 <- fars_read(2013_file) 
 dim(fars_2013)
 ## [1] 30202    50
 ```
