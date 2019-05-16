@@ -52,5 +52,5 @@ Vignettes
 
 You can refer to below articles for more infoamtion about the package.
 
-- [`Rfars` Package Description](http://rpubs.com/jrwinget/package-description)
-- [`Rfars` Package Usage](http://rpubs.com/jrwinget/package-usage)
+- [`Rfars` Package Description](vignettes/package-description.Rmd)
+- [`Rfars` Package Usage](vignettes/package-usage.Rmd)
