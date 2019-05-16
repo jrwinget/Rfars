@@ -1,0 +1,25 @@
+Package: Rfars
+Type: Package
+Title: Rfars R Package
+Version: 0.1.0
+Authors@R: person("Jeremy", "Winget", email = "jwinget@luc.edu",
+  role = c("aut", "cre"))
+Description: Part of Coursera's Building R Packages course. This package uses data from the US National Highway Traffic Safety Administration's 
+  Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered 
+  in motor vehicle traffic crashes, to plot geographic locations of fatalies.
+Imports:
+  dplyr,
+  tidyr,
+  maps,
+  readr,
+  stats,
+  magrittr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
