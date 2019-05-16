@@ -1,6 +1,6 @@
 # The `Rfars` Package
-========
-Current status: [![Build Status](https://travis-ci.org/jrwinget/Rfars.svg?branch=master)](https://travis-ci.org/jrwinget/Rfars)
+---------------------
+[![Build Status](https://travis-ci.org/jrwinget/Rfars.svg?branch=master)](https://travis-ci.org/jrwinget/Rfars)
 
 This is an assignment for the **Coursera Mastering Software Development in R: Building R Packages** course.
 
