@@ -21,16 +21,16 @@ Load the package and read the sample dataset:
 ``` r
 library(Rfars)
 
-2013_file <- make_filename(2013)
-fars_2013 <- fars_read(2013_file) 
-dim(fars_2013)
+file_2013 <- make_filename(2013)
+df_2013 <- fars_read(file_2013) 
+dim(df_2013)
 ## [1] 30202    50
 ```
 
 The data in this package come from the National Highway Traffic Safety Administration (NHTSA) Fatality Analysis Reporting System (FARS) data.
 
 ``` r
-## fars_summarize_years(fars_2013)
+## fars_summarize_years(df_2013)
 ## # A tibble: 30,202 x 2
 ##    MONTH  year
 ##    <int> <dbl>
